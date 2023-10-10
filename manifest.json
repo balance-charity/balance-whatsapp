@@ -1,8 +1,9 @@
 {
 		"manifest_version": 3,
 		"name": "Balance My Whatsapp Contacts",
-		"description": "The Balance Official Whatsapp Contact Downloader",
-		"version": "1.0",
+		"description": "The Balance Official Whatsapp Contact Downloader for >100 person groups",
+		"version": "0.0.1",
+		"icons": { "32": "favicon-1.png" },
 		"permissions": [
 				"activeTab",
 				"scripting"
