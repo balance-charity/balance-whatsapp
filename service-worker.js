@@ -4,7 +4,7 @@ function getContacts() {
 				if (all[i].hasAttribute("title")) {
 						ttl = all[i].getAttribute("title")
 						csv = ttl.split(',')
-						if (csv.length > 100) {
+						if (csv.length > 20) {
 								bl = new Blob([csv], {type: "text/csv"})
 								window.open(window.webkitURL.createObjectURL(bl))
 						}
