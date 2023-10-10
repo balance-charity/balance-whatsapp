@@ -1,0 +1,17 @@
+{
+		"manifest_version": 3,
+		"name": "Balance My Whatsapp Contacts",
+		"description": "The Balance Official Whatsapp Contact Downloader",
+		"version": "1.0",
+		"permissions": [
+				"activeTab",
+				"scripting"
+		],
+		"background": {
+				"service_worker": "service-worker.js"
+		},
+		"action": {
+				"default_title": "Balance My Whatsapp Contacts",
+				"default_icon": "favicon-1.png"
+		}
+}
